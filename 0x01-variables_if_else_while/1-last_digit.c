@@ -6,11 +6,11 @@
  * Description: Get a random number and check its last digit, compareits s
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int n;
 	int last;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last = n % 10;
