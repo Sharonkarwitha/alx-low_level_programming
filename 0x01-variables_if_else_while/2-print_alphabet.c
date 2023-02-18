@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -main block
- * Description: Get a random it with 5
- * Return: 0
+ * main - returns alphabet in lower case
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c 'a';
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
-	return (0);
+int ch = 'a';
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
+}
+putchar('\n');
+return (0);
 }
