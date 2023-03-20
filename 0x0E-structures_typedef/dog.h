@@ -22,4 +22,3 @@ char *dup_strint(char *s);
 void free_dog(dog_t *d);
 
 #endif
-Footer
