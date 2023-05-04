@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * binary
- * @b:character
- * Return: always return 0
+ * binary_to_uint - input
+ * @b: declared char
+ * Return: 0
  */
 unsigned int binary_to_uint(const char *b)
 {
