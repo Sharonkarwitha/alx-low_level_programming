@@ -4,9 +4,8 @@
  * clear_bit - bit value 0
  * @n: int pointer
  * @index: bit 
- *  Return: always 1
+ * Return: always 1
  */
-
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned int byte;
